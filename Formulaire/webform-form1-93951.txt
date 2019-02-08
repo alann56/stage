@@ -1,0 +1,227 @@
+$webform = array (
+  'nid' => '93951',
+  'next_serial' => '2',
+  'confirmation' => '<div class="freebirdFormviewerViewResponseConfirmationMessage">Merci, vous êtes inscrit.e ! Vous recevrez un mail de confirmation la veille de l\'événement.</div><div class="freebirdFormviewerViewResponseConfirmationMessage">Pour toute question ou si vous souhaitez vous désinscrire : <a href="mailto:animation@audelor.com">animation@audelor.com</a></div>',
+  'confirmation_format' => 'wysiwyg_user',
+  'redirect_url' => '<confirmation>',
+  'status' => '1',
+  'block' => '0',
+  'allow_draft' => '0',
+  'auto_save' => '0',
+  'submit_notice' => '1',
+  'confidential' => '0',
+  'submit_text' => '',
+  'submit_limit' => '-1',
+  'submit_interval' => '-1',
+  'total_submit_limit' => '-1',
+  'total_submit_interval' => '-1',
+  'progressbar_bar' => '0',
+  'progressbar_page_number' => '0',
+  'progressbar_percent' => '0',
+  'progressbar_pagebreak_labels' => '0',
+  'progressbar_include_confirmation' => '0',
+  'progressbar_label_first' => 'Début',
+  'progressbar_label_confirmation' => 'Terminé',
+  'preview' => '0',
+  'preview_next_button_label' => '',
+  'preview_prev_button_label' => '',
+  'preview_title' => '',
+  'preview_message' => '',
+  'preview_message_format' => 'wysiwyg_user',
+  'preview_excluded_components' => 
+  array (
+  ),
+  'confirm_email_request_lifetime' => NULL,
+  'confirm_email_delete_submissions' => '0',
+  'record_exists' => true,
+  'roles' => 
+  array (
+    0 => '1',
+    1 => '2',
+  ),
+  'emails' => 
+  array (
+  ),
+  'components' => 
+  array (
+    2 => 
+    array (
+      'nid' => 93951,
+      'cid' => '2',
+      'pid' => '0',
+      'form_key' => 'nom',
+      'name' => 'NOM',
+      'type' => 'textfield',
+      'value' => '',
+      'extra' => 
+      array (
+        'width' => '',
+        'maxlength' => '',
+        'minlength' => '',
+        'field_prefix' => '',
+        'field_suffix' => '',
+        'disabled' => 0,
+        'unique' => 0,
+        'title_display' => 'before',
+        'description' => '',
+        'description_above' => false,
+        'placeholder' => '',
+        'attributes' => 
+        array (
+        ),
+        'private' => 0,
+        'analysis' => false,
+        'css_classes' => '',
+        'wrapper_classes' => '',
+      ),
+      'required' => '1',
+      'weight' => '1',
+      'page_num' => 1,
+    ),
+    3 => 
+    array (
+      'nid' => 93951,
+      'cid' => '3',
+      'pid' => '0',
+      'form_key' => 'prenom',
+      'name' => 'PRENOM',
+      'type' => 'textfield',
+      'value' => '',
+      'extra' => 
+      array (
+        'width' => '',
+        'maxlength' => '',
+        'minlength' => '',
+        'field_prefix' => '',
+        'field_suffix' => '',
+        'disabled' => 0,
+        'unique' => 0,
+        'title_display' => 'before',
+        'description' => '',
+        'description_above' => false,
+        'placeholder' => '',
+        'attributes' => 
+        array (
+        ),
+        'private' => 0,
+        'analysis' => false,
+        'css_classes' => '',
+        'wrapper_classes' => '',
+      ),
+      'required' => '1',
+      'weight' => '2',
+      'page_num' => 1,
+    ),
+    4 => 
+    array (
+      'nid' => 93951,
+      'cid' => '4',
+      'pid' => '0',
+      'form_key' => 'organisme_soci_t_collectivit_',
+      'name' => 'ORGANISME / SOCIÉTÉ / COLLECTIVITÉ ',
+      'type' => 'textfield',
+      'value' => '',
+      'extra' => 
+      array (
+        'width' => '',
+        'maxlength' => '',
+        'minlength' => '',
+        'field_prefix' => '',
+        'field_suffix' => '',
+        'disabled' => 0,
+        'unique' => 0,
+        'title_display' => 'before',
+        'description' => '',
+        'description_above' => false,
+        'placeholder' => '',
+        'attributes' => 
+        array (
+        ),
+        'private' => 0,
+        'analysis' => false,
+        'css_classes' => '',
+        'wrapper_classes' => '',
+      ),
+      'required' => '1',
+      'weight' => '3',
+      'page_num' => 1,
+    ),
+    5 => 
+    array (
+      'nid' => 93951,
+      'cid' => '5',
+      'pid' => '0',
+      'form_key' => 'e_mail',
+      'name' => 'E-MAIL',
+      'type' => 'email',
+      'value' => '',
+      'extra' => 
+      array (
+        'multiple' => 0,
+        'format' => 'short',
+        'width' => '',
+        'unique' => 0,
+        'disabled' => 0,
+        'title_display' => 'before',
+        'description' => '',
+        'description_above' => false,
+        'placeholder' => '',
+        'attributes' => 
+        array (
+        ),
+        'private' => 0,
+        'analysis' => false,
+        'css_classes' => '',
+        'wrapper_classes' => '',
+      ),
+      'required' => '1',
+      'weight' => '4',
+      'page_num' => 1,
+    ),
+    7 => 
+    array (
+      'nid' => 93951,
+      'cid' => '7',
+      'pid' => '0',
+      'form_key' => 'nouveau_champ_cases_cocher_',
+      'name' => 'RGPD - contact',
+      'type' => 'select',
+      'value' => '1,2,3',
+      'extra' => 
+      array (
+        'items' => '1|Accepter d\'être contacté
+2|Recevoir le Barographe
+3|Pouet
+',
+        'multiple' => true,
+        'aslist' => false,
+        'empty_option' => '',
+        'optrand' => 0,
+        'other_option' => NULL,
+        'other_text' => 'Autre...',
+        'title_display' => 'before',
+        'description' => '« Les informations recueillies font l’objet d’un traitement informatique destiné à mieux informer sur nos activités, produits et services. Les destinataires des données sont : le responsable du traitement informatique, le responsable de la communication .
+Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004, vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant à AudéLor, Pôle Communication, 12 avenue de la Perrière 56324 Lorient cedex.
+Vous pouvez également, pour des motifs légitimes, vous opposer au traitement des données vous concernant ».
+Le responsable du traitement informatique des données
+
+ ',
+        'description_above' => false,
+        'custom_keys' => 0,
+        'options_source' => '',
+        'private' => 0,
+        'analysis' => true,
+        'value' => '1,2',
+        'css_classes' => '',
+        'wrapper_classes' => '',
+      ),
+      'required' => '0',
+      'weight' => '5',
+      'page_num' => 1,
+    ),
+  ),
+  'conditionals' => 
+  array (
+  ),
+);
+
